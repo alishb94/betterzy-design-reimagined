@@ -52,19 +52,18 @@ export const Testimonial = () => {
               </div>
               
               <blockquote className="font-display text-2xl md:text-3xl lg:text-4xl text-slate-800 max-w-4xl mx-auto">
-                Betterzy has reduced our documentation time by 80% and our support tickets by 60%. Our users consistently
-                rate our help center as exceptional since we made the switch.
+                Finding a dentist used to be such a hassle until I discovered Betterzy. Now I can compare dentists, book instantly, and never worry about phone calls or waiting lists again!
               </blockquote>
               
               <div className="mt-10 flex flex-col items-center justify-center">
                 <img 
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&auto=format&fit=crop&q=80"
-                  alt="David Chen"
+                  alt="Sarah Johnson"
                   className="h-16 w-16 rounded-full object-cover border-2 border-white shadow-md" 
                 />
                 <div className="mt-4">
-                  <p className="font-medium text-slate-900">David Chen</p>
-                  <p className="text-sm text-slate-600">Head of Customer Success, TechFlow</p>
+                  <p className="font-medium text-slate-900">Sarah Johnson</p>
+                  <p className="text-sm text-slate-600">Happy Patient</p>
                 </div>
               </div>
             </div>

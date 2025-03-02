@@ -1,37 +1,37 @@
 
 import { useRef, useEffect } from "react";
-import { BookOpen, Sparkles, Boxes, Users, Repeat, Gauge } from "lucide-react";
+import { Sparkles, BookOpen, Calendar, Shield, Clock, Headset } from "lucide-react";
 
 const features = [
   {
-    title: "AI-Powered Documentation",
-    description: "Create comprehensive documentation in seconds with our advanced GPT integration, saving hours of manual work.",
+    title: "Find the Right Dentist for You",
+    description: "Browse a network of trusted dentists with detailed profiles, specialties, and patient reviews.",
     icon: Sparkles,
   },
   {
-    title: "Custom Knowledge Base",
-    description: "Build a searchable knowledge base tailored to your product, ensuring users find exactly what they need.",
+    title: "Book Instantly, No Waiting",
+    description: "Skip long searches—schedule your dental visit at your preferred time in just a few clicks.",
+    icon: Calendar,
+  },
+  {
+    title: "Compare & Choose",
+    description: "Receive appointment offers from multiple clinics and pick the one that suits you best—completely free!",
     icon: BookOpen,
   },
   {
-    title: "Interactive Tutorials",
-    description: "Create step-by-step tutorials with interactive elements that guide users through complex processes.",
-    icon: Boxes,
+    title: "All-in-One Convenience",
+    description: "No need to visit multiple websites. Everything you need—dentist info, booking, and confirmations—is in one place.",
+    icon: Shield,
   },
   {
-    title: "Collaborative Workflows",
-    description: "Work together with your team to create, review, and publish documentation with real-time collaboration.",
-    icon: Users,
+    title: "For Dentists: Gain More Patients",
+    description: "Get appointment requests, fill your schedule, and boost revenue—effortlessly and for free!",
+    icon: Clock,
   },
   {
-    title: "Version Control",
-    description: "Track changes and maintain different versions of your documentation as your product evolves.",
-    icon: Repeat,
-  },
-  {
-    title: "Performance Analytics",
-    description: "Gain insights into how users interact with your documentation to continuously improve the experience.",
-    icon: Gauge,
+    title: "24/7 Support",
+    description: "Book an appointment anytime, anywhere, and get assistance whenever you need it.",
+    icon: Headset,
   },
 ];
 
@@ -71,11 +71,10 @@ export const Features = () => {
             Features
           </div>
           <h2 className="font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
-            Documentation that works for you
+            Why Choose Our Online Dental Appointment Platform?
           </h2>
           <p className="mt-6 text-lg text-slate-600">
-            Our AI-powered platform combines the best of GPT technology with human expertise to create
-            documentation that saves time, reduces support tickets, and delights your users.
+            Book a Dentist in Minutes – Simple & Hassle-Free!
           </p>
         </div>
         
