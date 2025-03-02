@@ -52,19 +52,19 @@ export const Testimonial = () => {
               </div>
               
               <blockquote className="font-display text-2xl md:text-3xl lg:text-4xl text-slate-800 max-w-4xl mx-auto">
-                Betterzy has completely transformed how we approach design. The intuitive interface and powerful features have 
-                saved our team countless hours and elevated the quality of our products.
+                Betterzy has reduced our documentation time by 80% and our support tickets by 60%. Our users consistently
+                rate our help center as exceptional since we made the switch.
               </blockquote>
               
               <div className="mt-10 flex flex-col items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=150&h=150&auto=format&fit=crop&q=80"
-                  alt="Sarah Johnson"
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&auto=format&fit=crop&q=80"
+                  alt="David Chen"
                   className="h-16 w-16 rounded-full object-cover border-2 border-white shadow-md" 
                 />
                 <div className="mt-4">
-                  <p className="font-medium text-slate-900">Sarah Johnson</p>
-                  <p className="text-sm text-slate-600">Lead Designer, Acme Inc.</p>
+                  <p className="font-medium text-slate-900">David Chen</p>
+                  <p className="text-sm text-slate-600">Head of Customer Success, TechFlow</p>
                 </div>
               </div>
             </div>

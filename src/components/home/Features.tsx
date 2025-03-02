@@ -1,37 +1,37 @@
 
 import { useRef, useEffect } from "react";
-import { Check, Shield, Zap, Smartphone, Settings, Cloud } from "lucide-react";
+import { BookOpen, Sparkles, Boxes, Users, Repeat, Gauge } from "lucide-react";
 
 const features = [
   {
-    title: "Intuitive Design",
-    description: "Create beautiful interfaces with our intuitive design system, built for modern web applications.",
-    icon: Zap,
+    title: "AI-Powered Documentation",
+    description: "Create comprehensive documentation in seconds with our advanced GPT integration, saving hours of manual work.",
+    icon: Sparkles,
   },
   {
-    title: "Responsive Framework",
-    description: "Fully responsive across all devices, ensuring a seamless experience for every user.",
-    icon: Smartphone,
+    title: "Custom Knowledge Base",
+    description: "Build a searchable knowledge base tailored to your product, ensuring users find exactly what they need.",
+    icon: BookOpen,
   },
   {
-    title: "Enterprise Security",
-    description: "Industry-leading security practices to keep your data safe and your users protected.",
-    icon: Shield,
+    title: "Interactive Tutorials",
+    description: "Create step-by-step tutorials with interactive elements that guide users through complex processes.",
+    icon: Boxes,
   },
   {
-    title: "Advanced Customization",
-    description: "Tailor every aspect of your interface with powerful customization options.",
-    icon: Settings,
+    title: "Collaborative Workflows",
+    description: "Work together with your team to create, review, and publish documentation with real-time collaboration.",
+    icon: Users,
   },
   {
-    title: "Cloud Integration",
-    description: "Seamlessly integrate with popular cloud services and APIs for extended functionality.",
-    icon: Cloud,
+    title: "Version Control",
+    description: "Track changes and maintain different versions of your documentation as your product evolves.",
+    icon: Repeat,
   },
   {
-    title: "Performance Optimized",
-    description: "Blazing fast performance with optimized code and efficient resource utilization.",
-    icon: Check,
+    title: "Performance Analytics",
+    description: "Gain insights into how users interact with your documentation to continuously improve the experience.",
+    icon: Gauge,
   },
 ];
 
@@ -71,11 +71,11 @@ export const Features = () => {
             Features
           </div>
           <h2 className="font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
-            Everything you need to create exceptional experiences
+            Documentation that works for you
           </h2>
           <p className="mt-6 text-lg text-slate-600">
-            Our comprehensive toolkit provides everything designers and developers need to craft beautiful, 
-            functional interfaces that delight users and drive engagement.
+            Our AI-powered platform combines the best of GPT technology with human expertise to create
+            documentation that saves time, reduces support tickets, and delights your users.
           </p>
         </div>
         

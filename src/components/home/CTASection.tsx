@@ -16,11 +16,11 @@ export const CTASection = () => {
           
           <div className="relative text-center">
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8">
-              Ready to transform your design workflow?
+              Ready to transform your documentation?
             </h2>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10">
-              Join thousands of designers and developers who are creating exceptional
-              user experiences with our innovative design system.
+              Join hundreds of companies using Betterzy to create exceptional
+              documentation that saves time and delights users.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
@@ -36,12 +36,12 @@ export const CTASection = () => {
                 className="border-white/30 bg-transparent text-white hover:bg-white/10"
                 size="lg"
               >
-                Request Demo
+                Book a Demo
               </CustomButton>
             </div>
             
             <p className="mt-6 text-sm text-white/80">
-              No credit card required. Free plan includes all core features.
+              No credit card required. Free plan includes core AI documentation features.
             </p>
           </div>
         </div>
