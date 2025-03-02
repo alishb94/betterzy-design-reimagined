@@ -7,10 +7,8 @@ import { CustomButton } from "@/components/ui/CustomButton";
 
 const navLinks = [
   { name: "Home", path: "/" },
-  { name: "Features", path: "/#features" },
-  { name: "Pricing", path: "/#pricing" },
-  { name: "About", path: "/#about" },
-  { name: "Contact", path: "/#contact" },
+  { name: "About us", path: "/#about" },
+  { name: "Join Our Dentist Network", path: "/#contact" },
 ];
 
 export const Navbar = () => {
@@ -62,11 +60,8 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <CustomButton variant="outline" size="sm" className="border-slate-200 hover:border-primary">
-              Sign In
-            </CustomButton>
             <CustomButton size="sm" className="bg-gradient-to-r from-primary to-blue-500 border-0 shadow-sm hover:shadow-md">
-              Get Started
+              Schedule Instantly →
             </CustomButton>
           </div>
 
@@ -103,11 +98,8 @@ export const Navbar = () => {
             </Link>
           ))}
           <div className="pt-6 flex flex-col space-y-3">
-            <CustomButton variant="outline" className="border-slate-200 w-full">
-              Sign In
-            </CustomButton>
             <CustomButton className="bg-gradient-to-r from-primary to-blue-500 border-0 w-full">
-              Get Started
+              Schedule Instantly →
             </CustomButton>
           </div>
         </div>

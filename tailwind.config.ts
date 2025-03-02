@@ -70,8 +70,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				display: ['SF Pro Display', 'Inter', 'sans-serif'],
+				sans: ['Figtree', 'Inter', 'sans-serif'],
+				display: ['Figtree', 'SF Pro Display', 'Inter', 'sans-serif'],
 			},
 			boxShadow: {
 				'subtle': '0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04)',

@@ -4,7 +4,7 @@ import { CustomButton } from "@/components/ui/CustomButton";
 
 export const CTASection = () => {
   return (
-    <div className="py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div className="py-24 bg-gradient-to-b from-slate-50 to-white" id="contact">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="max-w-5xl mx-auto rounded-2xl bg-gradient-to-br from-primary to-blue-500 p-8 md:p-12 lg:p-16 text-white overflow-hidden relative shadow-elevation-3">
           {/* Background decorative elements */}
@@ -16,11 +16,10 @@ export const CTASection = () => {
           
           <div className="relative text-center">
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8">
-              Ready to transform your documentation?
+              Join Our Dentist Network!
             </h2>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10">
-              Join hundreds of companies using Betterzy to create exceptional
-              documentation that saves time and delights users.
+              Are you a dentist looking to expand your practice and connect with more patients?
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
@@ -28,21 +27,10 @@ export const CTASection = () => {
                 className="bg-white text-primary hover:bg-white/90 border-0 shadow-md hover:shadow-lg transition-all"
                 size="lg"
               >
-                Get Started Free
+                Get more patients
                 <ArrowRight className="ml-2 h-4 w-4" />
               </CustomButton>
-              <CustomButton 
-                variant="outline" 
-                className="border-white/30 bg-transparent text-white hover:bg-white/10"
-                size="lg"
-              >
-                Book a Demo
-              </CustomButton>
             </div>
-            
-            <p className="mt-6 text-sm text-white/80">
-              No credit card required. Free plan includes core AI documentation features.
-            </p>
           </div>
         </div>
       </div>
