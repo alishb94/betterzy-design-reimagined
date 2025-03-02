@@ -39,7 +39,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="relative h-8 w-8 overflow-hidden rounded-md bg-primary">
+            <div className="relative h-8 w-8 overflow-hidden rounded-md bg-gradient-to-br from-primary to-blue-500">
               <div className="absolute inset-0 flex items-center justify-center text-white font-display font-bold text-xl">
                 B
               </div>
@@ -53,7 +53,7 @@ export const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-primary transition-colors rounded-md"
+                className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-primary transition-colors rounded-md hover:bg-slate-50"
               >
                 {link.name}
               </Link>
@@ -62,10 +62,12 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <CustomButton variant="outline" size="sm">
+            <CustomButton variant="outline" size="sm" className="border-slate-200 hover:border-primary">
               Sign In
             </CustomButton>
-            <CustomButton size="sm">Get Started</CustomButton>
+            <CustomButton size="sm" className="bg-gradient-to-r from-primary to-blue-500 border-0 shadow-sm hover:shadow-md">
+              Get Started
+            </CustomButton>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,15 +96,19 @@ export const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className="px-4 py-3 text-base font-medium text-slate-700 hover:text-primary transition-colors rounded-md"
+              className="px-4 py-3 text-base font-medium text-slate-700 hover:text-primary transition-colors rounded-md hover:bg-slate-50"
               onClick={() => setMobileMenuOpen(false)}
             >
               {link.name}
             </Link>
           ))}
           <div className="pt-6 flex flex-col space-y-3">
-            <CustomButton variant="outline">Sign In</CustomButton>
-            <CustomButton>Get Started</CustomButton>
+            <CustomButton variant="outline" className="border-slate-200 w-full">
+              Sign In
+            </CustomButton>
+            <CustomButton className="bg-gradient-to-r from-primary to-blue-500 border-0 w-full">
+              Get Started
+            </CustomButton>
           </div>
         </div>
       </div>

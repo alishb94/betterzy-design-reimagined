@@ -24,12 +24,12 @@ const NotFound = () => {
         <p className="text-slate-600 mb-8">
           We couldn't find the page you're looking for. The page might have been moved or doesn't exist.
         </p>
-        <CustomButton asChild>
-          <Link to="/" className="inline-flex items-center">
+        <Link to="/">
+          <CustomButton className="inline-flex items-center">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Return to Home
-          </Link>
-        </CustomButton>
+          </CustomButton>
+        </Link>
       </div>
     </div>
   );

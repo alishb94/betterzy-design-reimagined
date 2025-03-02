@@ -8,6 +8,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   ripple?: boolean;
   className?: string;
   children: React.ReactNode;
+  asChild?: boolean;
 }
 
 const CustomButton = forwardRef<HTMLButtonElement, ButtonProps>(

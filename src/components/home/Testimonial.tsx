@@ -39,7 +39,7 @@ export const Testimonial = () => {
           <div className="absolute top-1/3 left-0 transform -translate-x-1/2 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
           <div className="absolute bottom-1/3 right-0 transform translate-x-1/2 w-72 h-72 bg-blue-400/5 rounded-full blur-3xl"></div>
           
-          <div className="relative glass-card rounded-2xl p-8 md:p-12 lg:p-16 overflow-hidden">
+          <div className="relative glass-card rounded-2xl p-8 md:p-12 lg:p-16 overflow-hidden backdrop-blur-sm border border-white/20 shadow-elevation-2">
             {/* Quote marks */}
             <div className="absolute top-6 left-6 text-primary/10 text-8xl font-serif">"</div>
             <div className="absolute bottom-6 right-6 text-primary/10 text-8xl font-serif">"</div>
