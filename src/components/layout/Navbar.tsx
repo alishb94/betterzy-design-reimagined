@@ -24,6 +24,22 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
+    if (path.startsWith('/#')) {
+      e.preventDefault();
+      const targetId = path.substring(2);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 100,
+          behavior: 'smooth'
+        });
+        setMobileMenuOpen(false);
+      }
+    }
+  };
+
   return (
     <header
       className={cn(
@@ -52,6 +68,7 @@ export const Navbar = () => {
                 key={link.name}
                 to={link.path}
                 className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-primary transition-colors rounded-md hover:bg-slate-50"
+                onClick={(e) => handleNavClick(e, link.path)}
               >
                 {link.name}
               </Link>
@@ -92,7 +109,7 @@ export const Navbar = () => {
               key={link.name}
               to={link.path}
               className="px-4 py-3 text-base font-medium text-slate-700 hover:text-primary transition-colors rounded-md hover:bg-slate-50"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={(e) => handleNavClick(e, link.path)}
             >
               {link.name}
             </Link>
