@@ -8,7 +8,7 @@ import { CustomButton } from "@/components/ui/CustomButton";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About us", path: "/#about" },
-  { name: "Join Our Dentist Network", path: "/#contact" },
+  { name: "Join Our Dentist Network", path: "https://app.betterzy.com/signup/clinic" },
 ];
 
 export const Navbar = () => {
@@ -60,7 +60,7 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <CustomButton size="sm" className="bg-gradient-to-r from-primary to-blue-500 border-0 shadow-sm hover:shadow-md">
+            <CustomButton size="sm" className="bg-gradient-to-r from-primary to-blue-500 border-0 shadow-sm hover:shadow-md" onClick={() => window.location.href = 'https://app.betterzy.com/signup'}>
               Schedule Instantly →
             </CustomButton>
           </div>
@@ -98,7 +98,7 @@ export const Navbar = () => {
             </Link>
           ))}
           <div className="pt-6 flex flex-col space-y-3">
-            <CustomButton className="bg-gradient-to-r from-primary to-blue-500 border-0 w-full">
+            <CustomButton className="bg-gradient-to-r from-primary to-blue-500 border-0 w-full" onClick={() => window.location.href = 'https://app.betterzy.com/signup'}>
               Schedule Instantly →
             </CustomButton>
           </div>

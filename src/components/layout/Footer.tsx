@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { ArrowRight, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
@@ -15,7 +16,7 @@ export const Footer = () => {
               <span className="font-display text-xl font-semibold">Betterzy</span>
             </div>
             <p className="text-sm text-slate-500">
-              Empowering businesses to achieve more with innovative solutions designed for growth and efficiency.
+              Easily schedule a dental appointment at your preferred time with the dentist of your choice. No waiting, no hassle—just fast, convenient booking for a healthier smile!
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-slate-400 hover:text-primary transition-colors">

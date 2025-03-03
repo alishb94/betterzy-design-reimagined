@@ -59,11 +59,20 @@ export const Hero = () => {
           
           {/* Call to action buttons */}
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 opacity-0 animate-fade-in" style={{ animationDelay: "600ms", animationFillMode: "forwards" }}>
-            <CustomButton size="lg" className="group bg-gradient-to-r from-primary to-blue-500 border-0 shadow-md hover:shadow-lg transition-all">
+            <CustomButton 
+              size="lg" 
+              className="group bg-gradient-to-r from-primary to-blue-500 border-0 shadow-md hover:shadow-lg transition-all"
+              onClick={() => window.location.href = 'https://app.betterzy.com/signup'}
+            >
               Schedule Your Visit Today!
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </CustomButton>
-            <CustomButton variant="outline" size="lg" className="backdrop-blur-sm bg-white/50">
+            <CustomButton 
+              variant="outline" 
+              size="lg" 
+              className="backdrop-blur-sm bg-white/50"
+              onClick={() => window.location.href = 'https://app.betterzy.com/signup/clinic'}
+            >
               Join Our Dentist Network
             </CustomButton>
           </div>
@@ -95,8 +104,8 @@ export const Hero = () => {
           {[
             { number: "100%", label: "Free Booking Service" },
             { number: "24/7", label: "Online Appointment" },
-            { number: "100+", label: "Verified Dentists" },
-            { number: "1000+", label: "Happy Patients" },
+            { number: "Professional", label: "Dentists" },
+            { number: "+20", label: "dental services" },
           ].map((stat, index) => (
             <div key={index} className="text-center glass-card px-6 py-8 rounded-xl hover:shadow-lg transition-all hover:-translate-y-1 duration-300">
               <div className="font-display text-3xl font-bold text-slate-900">{stat.number}</div>
