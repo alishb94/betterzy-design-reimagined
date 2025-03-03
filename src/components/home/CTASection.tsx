@@ -26,6 +26,7 @@ export const CTASection = () => {
               <CustomButton 
                 className="bg-white text-primary hover:bg-white/90 border-0 shadow-md hover:shadow-lg transition-all"
                 size="lg"
+                onClick={() => window.location.href = 'https://app.betterzy.com/signup/clinic'}
               >
                 Get more patients
                 <ArrowRight className="ml-2 h-4 w-4" />
