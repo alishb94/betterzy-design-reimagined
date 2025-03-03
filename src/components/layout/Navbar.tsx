@@ -8,7 +8,7 @@ import { CustomButton } from "@/components/ui/CustomButton";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About us", path: "/#about" },
-  { name: "Join Our Dentist Network", path: "https://app.betterzy.com/signup/clinic" },
+  { name: "Join Our Dentist Network", path: "/#contact" },
 ];
 
 export const Navbar = () => {
