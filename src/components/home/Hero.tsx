@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { CustomButton } from "@/components/ui/CustomButton";
@@ -104,7 +103,7 @@ export const Hero = () => {
           {[
             { number: "100%", label: "Free Booking Service" },
             { number: "24/7", label: "Online Appointment" },
-            { number: "Professional", label: "Dentists" },
+            { number: "100+", label: "Professional Dentists" },
             { number: "+20", label: "dental services" },
           ].map((stat, index) => (
             <div key={index} className="text-center glass-card px-6 py-8 rounded-xl hover:shadow-lg transition-all hover:-translate-y-1 duration-300">
